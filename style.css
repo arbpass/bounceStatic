@@ -36,10 +36,12 @@ a {
 
 #drop-links {
     display: none;
+    margin-top: 15px;
 }
 
 #drop-links a {
     display: block;
+    margin-top: 5px;
 }
 
 
