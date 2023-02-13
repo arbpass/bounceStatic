@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Quicksand';
+    padding-inline: 17%;
+}
+
+#navbar-div {
+    display: inline-block;
+    float: right;
+    transform: translateY(30%);
+}
+
+#drop-phone {
+    float: right;
+    transform: translateY(20%);
+    display: none;
+    font-family: 'Cutive Mono';
+}
+
+#drop-links {
+    display: none;
+}
+
+#drop-links a {
+    display: block;
+}
+
+
+.container1 {
+    background-image: url('https://images.unsplash.com/photo-1674300981749-e3f31557ac29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80');
+    background-size: cover;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color: white;
+}
+
+.container1-data {
+    margin: auto;
+    width: 50%;
+}
+
+#container1-h1 {
+    font-size: 6rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+#container1-p1 {
+    font-family: 'Cutive Mono';
+}
+
+#container1-p2,
+#container1-p2-out {
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+
+.container2 {
+    background-color: #171717;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color: white;
+}
+
+.container2-data {
+    margin: auto;
+    width: 80%;
+}
+
+#container2-p1 {
+    font-family: "Cutive Mono";
+}
+
+#container2-p2 {
+    font-family: "Poppins";
+    margin-top: 2%;
+    font-size: 2rem;
+}
+
+#partners {
+    display: flex;
+    font-family: 'Poppins';
+    font-size: smaller;
+}
+
+.partners-parts {
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.partners-parts img {
+    width: 96px;
+    height: 96px;
+}
+
+
+.container3 {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin: auto;
+    width: 80%;
+    color: #171717;
+}
+
+#container3-p1 {
+    font-family: "Poppins";
+    font-size: 2rem;
+}
+
+#container3-p2 {
+    font-family: "Poppins";
+    margin-bottom: 1%;
+}
+
+#hire-me {
+    background-color: #171717;
+    color: white;
+    border: 1px solid #171717;
+    padding: 1% 2% 1% 2%;
+    border-radius: 3px;
+    font-family: 'Poppins';
+}
+
+#hire-me:hover {
+    color: #171717;
+    background-color: white;
+
+}
+
+
+.footer2 {
+    color: white;
+    background: #171717;
+    line-height: 50px;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+.upperFooter {
+    width: fit-content;
+    float: left;
+    padding-inline: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.policy {
+    float: right;
+    padding-inline: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.policy a {
+    color: white;
+    margin-inline: 5px;
+    font-size: smaller;
+}
+
+
+
+/* contact */
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Poppins';
+}
+
+.left {
+    left: 0;
+    background-image: url('https://images.unsplash.com/photo-1652955189360-903b2bf1d4c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=696&q=80');
+    background-size: cover;
+    color: white;
+}
+
+.right {
+    right: 0;
+    background-color: #171717;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+#contact-form {
+    width: 100%;
+}
+
+#contact-p1 {
+    font-size: 2rem;
+}
+
+#contact-p2 {
+    font-size: smaller;
+    margin-bottom: 5%;
+    font-family: 'Cutive Mono';
+}
+
+.contact-input {
+    width: 500px;
+    font-family: 'Poppins';
+    margin-bottom: 5%;
+    height: 30px;
+    border: 1px solid white;
+    background-color: #171717;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    padding-inline: 5px;
+}
+
+.contact-btn {
+    background-color: white;
+    color: #171717;
+    border: 1px solid white;
+    padding: 1% 2% 1% 2%;
+    border-radius: 3px;
+    font-family: 'Poppins';
+    margin-right: 20px;
+    padding-inline: 20px;
+}
+
+.contact-btn:hover {
+    background-color: #171717;
+    color: white;
+}
+
+
+
+/* media queries index.html */
+
+@media only screen and (max-width: 800px) {
+    #container1-h1 {
+        font-size: 4rem;
+    }
+
+    .partners-parts {
+        margin: 3px;
+        padding: 5px;
+    }
+    .policy, .upperFooter{
+        padding-inline: 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #container1-h1 {
+        font-size: 3rem;
+    }
+
+    .partners-parts {
+        margin: 3px;
+        padding: 5px;
+    }
+
+    .container2-data {
+        width: 95%;
+    }
+
+    .policy, .upperFooter{
+        padding-inline: 2%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .policy{
+        display: flex;
+        float: left;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .container1-data {
+        width: 80%;
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
+
+    #container1-p1 {
+        font-size: smaller;
+    }
+
+    #container1-p2 {
+        font-size: smaller;
+    }
+
+    #container1-h1 {
+        font-size: 2rem;
+    }
+
+    #partners {
+        display: block;
+    }
+
+    .partners-parts {
+        margin: 3px;
+        padding: 5px;
+    }
+
+    .container2-data {
+        width: 80%;
+    }
+
+    #navbar-div {
+        display: none;
+    }
+
+    #drop-phone {
+        display: block;
+    }
+}
+
+
+
+
+/* media queries for contact */
+@media only screen and (max-width: 1060px) {
+    .contact-input {
+        width: 100%;
+    }
+
+    .centered {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contact-input {
+        width: 100%;
+    }
+
+    .centered {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .centered {
+        width: 80%;
+    }
+
+    .split {
+        width: 100%;
+    }
+
+    .right {
+        background-image: url('https://images.unsplash.com/photo-1652955189360-903b2bf1d4c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=696&q=80');
+        background-size: cover;
+        color: white;
+    }
+}
